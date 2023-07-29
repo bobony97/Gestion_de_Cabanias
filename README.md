@@ -12,18 +12,12 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
-```sh
-npm install
-```
+Este proyecto esta realizado con MySQL, Electron js, Vue js y Express js
 
-### Compile and Hot-Reload for Development
+-El proyecto utiliza 1 base de datos con el nombre de "cabanias", una tabla llamada "cabania" y sus respectivas columnas son: "id, cabania, nombre_inquilino, fecha_ingreso, fecha_salida", la segunda tabla es "entradas" y los nombres de las columnas son: "id, cabania, nombre_inquilino, fecha_ingreso, fecha_salida", dicha base de datos esta localizada en la carpeta "base de datos" dentro del proyecto.
 
-```sh
-npm run dev
-```
+Recomendado abrir 3 consolas para ejecutar la aplicacion completa
+-En la primer consola: npm run vue - "Ejecuta vue"
+-En la segunda consola: cd back - "ingresa a la carpeta back, que es donde esta el backend" luego en la misma consola: node app.js - "Ejecuta el servidor backend"
+-En la tercer consola: npm run elec - "Ejecuta electron js"
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
